@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ExtensionModel>
-	<Runtime>
-	</Runtime>
+    <Extension path = "/MonoDevelop/Ide/Commands/Edit">
+        <Command id = "XSWebSnippet.XSWebSnippetCommands.Copy"
+             _label = "Web Snippet Copy"
+             defaultHandler = "XSWebSnippet.CopyHandler" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Edit">
+        <CommandItem id="XSWebSnippet.XSWebSnippetCommands.Copy" />
+    </Extension>
+
 </ExtensionModel>

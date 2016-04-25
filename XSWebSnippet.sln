@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSWebSnippet", "XSWebSnippet\XSWebSnippet.csproj", "{1BD67CAB-E284-4237-8DB5-2F9D9F701EAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSWebSnippet.Tests", "XSWebSnippet.Tests\XSWebSnippet.Tests.csproj", "{0D1C1ACE-0230-4401-BE9F-1C63753C6829}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XSWebSnippet.Shared", "XSWebSnippet.Shared\XSWebSnippet.Shared.shproj", "{6793EF32-E76B-4CED-ABB7-0FB49601BDB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,9 @@ Global
 		{1BD67CAB-E284-4237-8DB5-2F9D9F701EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD67CAB-E284-4237-8DB5-2F9D9F701EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD67CAB-E284-4237-8DB5-2F9D9F701EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1C1ACE-0230-4401-BE9F-1C63753C6829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1C1ACE-0230-4401-BE9F-1C63753C6829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1C1ACE-0230-4401-BE9F-1C63753C6829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1C1ACE-0230-4401-BE9F-1C63753C6829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
